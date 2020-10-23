@@ -11,23 +11,29 @@
 
     <body>
         <!--navigation bar-->
-        <nav id="navigation">
-            <ul class="container">
-                <a class="nav-link" href="#aboutme">About Me</a>
-                <a class="nav-link" href="#work">Work Experience</a>
-                <a class="nav-link" href="#portfolio">Projects</a>
-                <a class="nav-link" href="#contact">Contact</a>
+        <nav class="navbar navbar-expand-md" style="background-color: whitesmoke;">
+            <a class="navbar-brand" href="#navigation">JJ.io</a>
+            
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item"><a class="nav-item nav-link" href="#aboutme">About Me</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#work">Work Experience</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#portfolio">Projects</a></li>
+                <li class="nav-item"><a class="nav-item nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
+
         <!--about me-->
-        <article id="aboutme">
+        <article id="aboutme" class="wrapper style1">
             <div class="container">
                 <div class="row">
                     <!--image holder-->
-                    <div>
+                    <div class="col-12 col-12-large col-12-medium">
                         <img src="images/Me.jpg" id="profilepicture">
+                        &nbsp;
                     </div>
-                    <div>
+                    <div class="col-12 col-12-large col-12-medium">
                         <header>
                             <h1>Hello my name is Jethjera Silasant</h1>
                         </header>
@@ -39,85 +45,134 @@
         </article>
 
         <!--Work Experience-->
-        <article id="work">
+        <article id="work" class="wrapper style2">
             <div class="container">
-                <div class="row">
-                    <header>
-                        <h2>My work experience</h2>
-                        <p>This will include my work experience from all jobs related to software engineer and non-software engineering jobs.</p>
-                    </header>
-                    <div>
-                        <div>
-
-                        </div>
+                <header>
+                    <h2>My work experience</h2>
+                    <p>This will include my work experience from all jobs related to software engineer and non-software engineering jobs.</p>
+                </header>
+                <div class="row aln-center">
+                    <div class="col-4 col-6-medium col-12-small">
+                        <section class="box style1">
+                            <a><img id="disd" src="images/DISD.png"></a>
+                            <h4><a>Dallas Indepedent School District</a></h4>
+                            <p>Data Techician III: Non-Software Engineer Role</p>
+                            <p>Data Techician III: Non-Software Engineer Role</p>    
+                        </section>
                     </div>
-                    <div>
-                        <div>
-                            
-                        </div>
+                
+                
+                    <div class="col-4 col-6-medium col-12-small">
+                        <section class="box style1">
+                            <a><img id="fujitsu"src="images/fujitsu.png"></a>
+                            <h4><a>Fujitsu Network Communications</a></h4>
+                            <p>Database Intern: IT Position with Software Developing</p>
+                            <p>Database Intern: IT Position with Software Developing</p>
+                        </section>
                     </div>
-                    
+                
+                
+                    <div class="col-4 col-6-medium col-12-small">
+                        <section class="box style1">
+                            <a><img id="dominos" src="images/dominos.png"></a>
+                            <h4><a>Domino's Pizza</a></h4>
+                            <p>Customer Representative: Non-Software Engineer Role</p>
+                            <p>Customer Representative: Non-Software Engineer Role</p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </article>
         <!--Projects-->
-        <article id="portfolio">
+        <article id="portfolio" class="wrapper style3">
             <div class="container">
+
+                <header>
+                    <h2>My personal and school projects</h2>
+                    <p>This includes my personal projects, as well as my projects for school. I'm only showcasing a few, but if you like to see more check my <a href="https://github.com/Jsilasant" class="fab fa-github"><span class="label"> Github </span></a></p>
+                </header>
                 <div class="row">
-                    <header>
-                        <h2>My personal and school projects</h2>
-                        <p>This includes my personal projects, as well as my projects for school. I'm only showcasing a few, but if you like to see more check my <a href="https://github.com/Jsilasant" class="fab fa-github"><span class="label"> Github </span></a></p>
-                    </header>
-                    <div>
-                        <div>
-
+                    <div></div>
+                        <div class="col-4 col-6-medium col-12-small">
+                            <article class="box style2">
+                                <a href="https://github.com/Jsilasant/DeepQLearning"><img id="CartPole" src="images/CartPole.gif"></a>
+                                <h3><a href="https://github.com/Jsilasant/DeepQLearning">Machine Learning: Q-Algorithm</a></h3>
+                                <p>Testing description</p>
+                            </article>
                         </div>
-                    </div>
-                    <div>
-                        <div>
-                            
+                    
+                    
+                        <div class="col-4 col-6-medium col-12-small">
+                            <article class="box style2">
+                                <a href="https://github.com/tristengeven/cohort_schmohort_project"><img id="logisim" src="images/Logisim.png"></a>
+                                <h3><a href="https://github.com/tristengeven/cohort_schmohort_project">Digital Logic: Verilog ALU project</a></h3>
+                                <p>Testing description</p>
+                            </article>
                         </div>
-                    </div>
-                    <div>
-                        <div>
-
+                    
+                    
+                        <div class="col-4 col-6-medium col-12-small">
+                            <article class="box style2">
+                                <a href="https://github.com/Jsilasant/django_blog"><img src="images/Me.jpg"></a>
+                                <h3><a href="https://github.com/Jsilasant/django_blog">Python/Django:Blog Website </a></h3>
+                                <p>Testing description</p>
+                            </article>
                         </div>
-                    </div>
-                    <div>
-                        <div>
-
+                
+                
+                        <div class="col-4 col-6-medium col-12-small">
+                            <article class="box style2">
+                                <a href="https://github.com/Jsilasant/WeatherApplication"><img src="images/Me.jpg"></a>
+                                <h3><a href="https://github.com/Jsilasant/WeatherApplication">Android Studio: Weather Application </a></h3>
+                                <p>Testing description</p>
+                            </article>
                         </div>
+                    
+                    
+                    <div class="col-4 col-6-medium col-12-small">
+                        <article class="box style2">
+                            <a href="#"><img src="images/Me.jpg"></a>
+                            <h3><a href="#">Android Studio: Moblie Application idea </a></h3>
+                            <p>Testing description</p>
+                        </article>
                     </div>
-                    <div>
-                        <div>
-
-                        </div>
-                    </div>
+                </div>
             </div>
         </article>
         <!--Contact Information-->
-        <article id="contact">
+        <article id="contact" class="wrapper style4">
             <div class="container">
+                <header>
+                    <h2>My Contact Information!</h2>
+                    <a>Information below will be for recruiters and job offerings</a>
+                </header>
                 <div class="row">
-                    <div class="col-16">
-                        <h2>My contact information!</h2>
-                        <a>Information below will be for recruiters and job offerings</a>
+                    <div class="col-4 col-6-medium col-12-small">
+                        <p>Phone: 999-999-9999</p>
                     </div>
-                    <div class="col-12">
-                        <hr>
-                        <li><a class="fas fa-envelope"><span class="label">Email</span></a></li>
-                        <li><a href="www.linkedin.com/in/jethjera-silasant" class="fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                        <li><a href="https://github.com/Jsilasant" class="fab fa-github"><span class="label">Github</span></a></li>
+                    <div class="col-4 col-6-medium col-12-small">
+                        <p>Email: email@gmail.com</p>
+                    </div>
+                    <div class="col-4 col-6-medium col-12-small">
+                        <hr/>
+                        <ul>
+                            <li><a href="mailto:jjsilasant@gmail.com" class="fas fa-envelope"><span class="label"> Email </span></a></li>
+                            <li><a href="www.linkedin.com/in/jethjera-silasant" class="fab fa-linkedin"><span class="label"> LinkedIn </span></a></li>
+                            <li><a href="https://github.com/Jsilasant" class="fab fa-github"><span class="label"> Github </span></a></li>
+                        </ul>
                     </div>    
+                    <footer>
+                        <li>Thanks for visiting!</li>
+                    </footer>
                 </div>
             </div>
             
         </article>
 
     <!--Scripts-->
-    <script src="assets/js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/13f17c4bf5.js" crossorigin="anonymous"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/13f17c4bf5.js" crossorigin="anonymous"></script>
 
     </body>
 </html>
